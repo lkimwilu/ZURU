@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(13, 14, 13);
+}
+    
+.navigation{
+
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    color: rgb(0, 128, 68);
+}
+.navlinks{
+color: white;
+}
+.navlinks  a{
+color: white;
+text-decoration: none;
+margin: 16px;
+font-size: 25px;
+}
+.navlinks button{
+    font-size: 18px;
+    background-color: green;
+    color: white;
+
+}
+
+.hero-about{
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    position: relative;
+    
+}
+.hero-about img{
+    background-size: cover;
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    display: block;
+}
+.hero-content-about{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(253, 253, 250)
+
+
+}
+.hero-content h1{
+    font-size: 80px;
+    margin: auto;
+    
+
+}
+.hero-content p{
+    font-size: 30px;
+    color: rgb(6, 26, 34);
+}
