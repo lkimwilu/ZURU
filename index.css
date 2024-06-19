@@ -45,11 +45,11 @@ display: block;
 }
 .hero-content{
     position: absolute;
-    top: 47%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: rgb(12, 10, 0)
+    color: white;
 
 
 }
@@ -61,7 +61,7 @@ display: block;
 }
 .hero-content p{
     font-size: 30px;
-    color: rgb(6, 26, 34);
+    color: white;
 }
 .hero-content button{
     margin: 8px;
@@ -72,7 +72,7 @@ display: block;
     border-radius: 455px;
 }
 .hero-content button:hover {
-    background-color: rgb(132, 168, 85);
+    background-color: whitesmoke;
 }
 .search{
     margin: auto;
