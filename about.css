@@ -1,66 +1,262 @@
-body{
-    background-color: rgb(13, 14, 13);
+/* Container for navigation */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #333;
+    color: white;
 }
-    
-.navigation{
 
-    width: 70%;
-    margin: auto;
+/* Logo styling */
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Container for navigation links */
+.navlinks {
     display: flex;
     align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
 }
-.logo{
-    color: rgb(0, 128, 68);
-}
-.navlinks{
-color: white;
-}
-.navlinks  a{
-color: white;
-text-decoration: none;
-margin: 16px;
-font-size: 25px;
-}
-.navlinks button{
-    font-size: 18px;
-    background-color: green;
+
+/* Styling for each navigation link */
+.navlinks a {
+    margin: 0 15px;
     color: white;
-
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
 }
 
-.hero-about{
-    width: 100%;
-    height: 30vh;
-    overflow: hidden;
-    position: relative;
-    
+/* Hover effect for navigation links */
+.navlinks a:hover {
+    color: #f4a261;
 }
-.hero-about img{
-    background-size: cover;
-    width: 100%;
-    height: 85%;
-    object-fit: cover;
-    display: block;
+
+/* Styling for the Sign Up button */
+.navlinks button {
+    margin-left: 15px;
+    padding: 10px 20px;
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-.hero-content-about{
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+/* Hover effect for the Sign Up button */
+.navlinks button:hover {
+    background-color: #e76f51;
+}
+
+.hero_bout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero_bout img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.hero-content-about {
+    max-width: 600px;
+}
+
+.hero-content-about p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+}
+.team_members {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    padding: 20px; 
+}
+.ceo-profile {
     text-align: center;
-    color: rgb(253, 253, 250)
-
-
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.hero-content h1{
-    font-size: 80px;
+
+.ceo-profile img {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
+
+.ceo-profile h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.ceo-profile h2 span {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.ceo-profile p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #666;
+}
+
+.vision_section, .mission {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin: 20px auto; 
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.vision_section p:first-of-type, .mission p:first-of-type {
+    font-size: 1.5em; 
+    font-weight: bold;
+    color: #333; 
+    margin-bottom: 20px;
+}
+
+.vision_section p:last-of-type, .mission p:last-of-type {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6; 
+    margin: 0; 
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1200px;
     margin: auto;
-    
-
+    padding: 0 20px;
 }
-.hero-content p{
-    font-size: 30px;
-    color: rgb(6, 26, 34);
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.footer-section p, .footer-section ul, .footer-section form {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #f4a261;
+}
+
+.footer-section form input,
+.footer-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-section form button {
+    padding: 10px 20px;
+    background-color: #f4a261;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer-section form button:hover {
+    background-color: #e76f51;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 1em;
+}
+
+
+@media (max-width: 768px) {
+    .hero_bout {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero_bout img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .hero-content-about {
+        max-width: 100%;
+    }
+    .vision_section, .mission {
+        padding: 20px 10px;
+    }
+
+    .vision_section p:first-of-type, .mission p:first-of-type {
+        font-size: 1.3em; 
+    }
+
+    .vision_section p:last-of-type, .mission p:last-of-type {
+        font-size: 1em;
+    }
+    .ceo-profile {
+        width: 100%;
+        margin: 10px 0;
+    }
 }
