@@ -55,12 +55,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 50px;
     background-color: #f4f4f4;
     margin: 20px auto;
-    max-width: 1000px;
+    max-width:1000px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .hero_bout img {
@@ -80,7 +80,7 @@
     color: #333;
     margin: 0;
 }
-.team_members {
+.Our-team {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-around;
@@ -118,28 +118,33 @@
     color: #666;
 }
 
-.vision_section, .mission {
+.mission {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
     background-color: #f9f9f9;
-    padding: 40px 20px;
-    margin: 20px auto; 
-    max-width: 800px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 4rem;
+    
+       
+}
+
+
+.reject {
+    background-color: #e99755;
+    width: 25%;
+    padding: 15px;
+    border-radius: 15px;
     text-align: center;
+    
+
+}
+.reject:hover{
+    background-color:rgb(230, 204, 62);
 }
 
-.vision_section p:first-of-type, .mission p:first-of-type {
-    font-size: 1.5em; 
-    font-weight: bold;
-    color: #333; 
-    margin-bottom: 20px;
-}
+.vision {
 
-.vision_section p:last-of-type, .mission p:last-of-type {
-    font-size: 1.2em;
-    color: #555;
-    line-height: 1.6; 
-    margin: 0; 
 }
 
 /* Footer Styles */
