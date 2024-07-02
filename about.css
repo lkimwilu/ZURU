@@ -131,7 +131,7 @@
 
 
 .reject {
-    background-color: #e99755;
+    background-color: #b86726;
     width: 25%;
     padding: 15px;
     border-radius: 15px;
@@ -140,7 +140,7 @@
 
 }
 .reject:hover{
-    background-color:rgb(230, 204, 62);
+    background-color:rgb(218, 97, 54);
 }
 
 .vision {
