@@ -1,4 +1,4 @@
-/* Container for navigation */
+/* Navigation Styles */
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -51,104 +51,43 @@
     background-color: #e76f51;
 }
 
-.hero_bout {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* Hero Section */
+.hero {
+    text-align: center;
     padding: 50px;
     background-color: #f4f4f4;
     margin: 20px auto;
-    max-width:1000px;
+    max-width: 1000px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.hero_bout img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    margin-right: 20px;
-}
-
-.hero-content-about {
-    max-width: 600px;
-}
-
-.hero-content-about p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    color: #333;
-    margin: 0;
-}
-.Our-team {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-around;
-    padding: 20px; 
-}
-.ceo-profile {
+/* Service Sections */
+.service-section {
     text-align: center;
-    max-width: 300px;
+    padding: 50px;
+    background-color: #fff;
     margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.ceo-profile img {
-    display: block;
-    margin: 0 auto 10px;
-    border-radius: 50%;
-}
-
-.ceo-profile h2 {
+.service-section h2 {
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.ceo-profile h2 span {
-    font-size: 0.8em;
-    color: #888;
+.service-section p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
-.ceo-profile p {
-    font-size: 0.9em;
-    line-height: 1.4;
-    color: #666;
-}
-
-.mission {
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-    width: 80%;
-    background-color: #f9f9f9;
-    margin-top: 4rem;
-    
-       
-}
-
-
-.reject {
-<<<<<<< HEAD
-    background-color: #b86726;
-=======
-    background-color: #F4A261;
->>>>>>> e11f6f371a5d8cf63e89b9f31bdee707a5bf225e
-    width: 25%;
-    padding: 15px;
-    border-radius: 15px;
-    text-align: center;
-    
-
-}
-.reject:hover{
-    background-color:rgb(218, 97, 54);
-}
-
-.vision {
-
+.service-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 /* Footer Styles */
@@ -236,36 +175,4 @@
 .footer-bottom p {
     margin: 0;
     font-size: 1em;
-}
-
-
-@media (max-width: 768px) {
-    .hero_bout {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero_bout img {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-
-    .hero-content-about {
-        max-width: 100%;
-    }
-    .vision_section, .mission {
-        padding: 20px 10px;
-    }
-
-    .vision_section p:first-of-type, .mission p:first-of-type {
-        font-size: 1.3em; 
-    }
-
-    .vision_section p:last-of-type, .mission p:last-of-type {
-        font-size: 1em;
-    }
-    .ceo-profile {
-        width: 100%;
-        margin: 10px 0;
-    }
 }
