@@ -6,7 +6,7 @@
   }
   
   body {
-    background-color: #ffecdb;
+    background-color: #F9F9FB;
     color: #333;
   }
   
@@ -29,7 +29,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #8a4f7d;
+    background-color: #CDCED7;
     color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -74,7 +74,7 @@
   
   .hero button {
     padding: 10px 20px;
-    background-color: #8a4f7d;
+    background-color: #FCD272;
     border: none;
     color: white;
     cursor: pointer;
@@ -85,7 +85,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-    background-color: #ffdec9;
+    background-color: #FFFAE9;
   }
   
   .search input[type="search"] {
@@ -100,7 +100,7 @@
     padding: 10px 20px;
     border: none;
     border-radius: 0 4px 4px 0;
-    background-color: #8a4f7d;
+    background-color: #FCD272;
     color: white;
     cursor: pointer;
   }
@@ -108,7 +108,7 @@
   .destinations {
     padding: 40px 0;
     text-align: center;
-    background-color: #ffecdb;
+    background-color: #F9F9FB;
   }
   
   .destinations h1 {
@@ -137,7 +137,7 @@
   
   .holiday-cards {
     padding: 40px 0;
-    background-color: #ffdec9;
+    background-color: #FFFAE9;
     text-align: center;
   }
   
@@ -182,7 +182,7 @@
   
   .card-content button {
     padding: 10px;
-    background-color: #8a4f7d;
+    background-color: #FCD272;
     border: none;
     color: white;
     cursor: pointer;
@@ -190,7 +190,7 @@
   }
   
   .footer {
-    background-color: #5c2c6d;
+    background-color: #FCD272;
     color: white;
     padding: 40px 0;
   }
@@ -243,7 +243,7 @@
   .footer-section form button {
     padding: 10px;
     border: none;
-    background-color: #8a4f7d;
+    background-color: #FCD272;
     color: white;
     cursor: pointer;
     width: 100%;
@@ -252,6 +252,6 @@
   .footer-bottom {
     text-align: center;
     padding: 10px 0;
-    background-color: #4a2563;
+    background-color: #00104010;
   }
   
