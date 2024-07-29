@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #ffecdb;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .navlinks a {
+    padding: 0 15px;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #8a4f7d;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 80vh;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .hero-content {
+    position: absolute;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    background-color: #8a4f7d;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #ffdec9;
+  }
+  
+  .search input[type="search"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+  .search button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #8a4f7d;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .destinations {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #ffecdb;
+  }
+  
+  .destinations h1 {
+    margin-bottom: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .column img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .holiday-cards {
+    padding: 40px 0;
+    background-color: #ffdec9;
+    text-align: center;
+  }
+  
+  .holiday-cards h1 {
+    margin-bottom: 20px;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-content h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .card-content p {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .card-content button {
+    padding: 10px;
+    background-color: #8a4f7d;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .footer {
+    background-color: #5c2c6d;
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .footer-section p,
+  .footer-section ul,
+  .footer-section form {
+    margin-bottom: 20px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: white;
+  }
+  
+  .footer-section form input,
+  .footer-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .footer-section form button {
+    padding: 10px;
+    border: none;
+    background-color: #8a4f7d;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4a2563;
+  }
+  

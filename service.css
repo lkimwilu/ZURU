@@ -1,0 +1,159 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+  
+a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+/* Navigation Styles */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #8a4f7d;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+  
+.navlinks {
+    display: flex;
+    gap: 15px;
+}
+  
+.navlinks a {
+    padding: 0 15px;
+    color: white;
+    font-weight: bold;
+}
+  
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+  
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/8765889/pexels-photo-8765889.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center/cover;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+  
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+  
+.hero p {
+    font-size: 1.2em;
+}
+  
+/* Service Sections */
+.service-section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+  
+.service-section h2 {
+    color: #8a4f7d;
+    margin-bottom: 10px;
+}
+  
+.service-section p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+  
+.service-section img {
+    width: 80%; /* Reduced from 100% to 80% */
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    max-width: 600px; /* Added max-width to limit the size */
+    margin: 0 auto; /* Center the image horizontally */
+}
+  
+/* Footer Styles */
+.footer {
+    background-color: #5c2c6d;
+    color: white;
+    padding: 40px 0;
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+  
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+  
+.footer-section h2 {
+    margin-bottom: 20px;
+}
+  
+.footer-section p,
+.footer-section ul,
+.footer-section form {
+    margin-bottom: 20px;
+}
+  
+.footer-section ul {
+    list-style: none;
+}
+  
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+  
+.footer-section ul li a {
+    color: white;
+}
+  
+.footer-section form input,
+.footer-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+  
+.footer-section form button {
+    padding: 10px;
+    border: none;
+    background-color: #8a4f7d;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4a2563;
+}
