@@ -12,200 +12,288 @@
   font-weight: bold;
 }
 
-.navlinks {
+.navigation {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-}
-
-.navlinks a {
-  margin: 0 15px;
+  padding: 15px 30px;
+  background-color: #8a4f7d;
   color: white;
-  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.login-container {
+  background-color: white;
+  padding: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 400px;
+  max-width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#main, #create-acct {
+  display: flex;
+  flex-direction: column;
+}
+
+#main > h1, #create-acct > h1 {
+  margin-bottom: 8%;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+  color: #01a2a8;
+  letter-spacing: 0.1em;
+}
+
+.p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+}
+
+.p span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+input {
+  margin-bottom: 3%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   font-size: 1em;
-  transition: color 0.3s ease;
 }
 
-.navlinks a:hover {
-  color: #f4a261;
+input:last-of-type {
+  margin-bottom: 0;
 }
 
-.navlinks button {
-  margin-left: 15px;
-  padding: 10px 20px;
-  background-color: #f4a261;
+button {
+  padding: 10px;
+  width: 100%;
+  font-size: 1em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+#submit, #create-acct-btn {
+  background-color: #060b1f;
   color: white;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  margin-top: 5%;
 }
 
-.navlinks button:hover {
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#sign-up, #return-btn {
+  background: none;
+  color: grey;
+  text-decoration: underline;
+  border: none;
+  margin-top: 3%;
+}
+
+#return-btn {
+  text-align: center;
+}
+
+#sign-up:hover, #return-btn:hover {
+  color: #060b1f;
+}
+
+#sign-up {
+  margin-top: 5%;
+}
+
+#return-btn {
+  margin-top: 3%;
+}
+
+#sign-up, #return-btn {
+  text-align: center;
+}
+
+#sign-up:hover, #return-btn:hover {
+  color: #060b1f;
+}
+
+#main > h1, #create-acct > h1 {
+  margin-bottom: 8%;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+  color: #01a2a8;
+  letter-spacing: 0.1em;
+}
+
+#main {
+  display: block;
+}
+
+#main > input, #main > button, #create-acct > input, #create-acct > button {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+#main > button, #create-acct > button {
+  background-color: #060b1f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+#main > button:hover, #create-acct > button:hover {
+  opacity: 0.8;
+}
+
+#main .p, #create-acct .p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+}
+
+#main .p span, #create-acct .p span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+#main input, #create-acct input {
+  margin-bottom: 3%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+#main input:last-of-type, #create-acct input:last-of-type {
+  margin-bottom: 0;
+}
+
+#main button, #create-acct button {
+  padding: 10px;
+  width: 100%;
+  font-size: 1em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+#main button:hover, #create-acct button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#sign-up {
+  border: none;
+  background-color: #060b1f;
+  color: white;
+  margin-top: 5%;
+}
+
+#sign-up:hover {
   background-color: #e76f51;
 }
 
+#create-acct {
+  display: none;
+}
 
+#return-btn {
+  background: none;
+  color: grey;
+  text-decoration: underline;
+  border: none;
+  margin-top: 3%;
+}
 
-#main > h1 {
-    margin-bottom: 8%;
-    text-align: center;
-    font-family: "Fredoka One", cursive;
-    color: #01a2a8;
-    letter-spacing: 0.1em;
-  }
+#return-btn:hover {
+  color: #060b1f;
+}
   
-  .p {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid #000;
-    line-height: 0.1em;
-  }
-  
-  .p span {
-    background:#fff;
-    padding:0 10px;
-  }
-  
-  input {
-    margin-bottom: 3%;
-  }
-  
-  input:last-of-type {
-    margin-bottom: 0;
-  }
-  
-  input, button {
-    padding: 3%;
-    width: 100%;
-  }
-  
-  .login-container {
-    background-color: white;
-    padding: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    width: 40vw;
-    margin: auto;
-    height: 70vh;
-    margin-top: 1vh;
-  }
-  
-  #submit, #create-acct-btn {
-    background-color: #060b1f;;
-    color: white;
-    border: none;
-    margin-top: 5%;
-  }
-  
-  button:hover {
-    cursor: pointer;
-    opacity: 0.8;
-    transition: 0.3s;
-  }
-  
-  #sign-up {
-    border: none;
-  }
-  
-  #create-acct {
-    display: none;
-  }
-  
-  #return-btn {
-    background: none;
-    color: grey;
-    text-decoration: underline;
-    border: none;
-    margin-top: 3%;
-  }
-
-  /* footer styles */
-  .footer {
-    background-color: #333;
-    color: white;
-    padding: 50px 0;
+/* Footer Styles */
+.footer {
+  background-color: #5c2c6d;
+  color: white;
+  padding: 40px 0;
 }
 
 .footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 30px;
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .footer-section {
-    flex: 1;
-    min-width: 250px;
+  flex: 1;
+  min-width: 200px;
 }
 
 .footer-section h2 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.footer-section p, .footer-section ul, .footer-section form {
-    font-size: 1em;
-    line-height: 1.6;
+.footer-section p,
+.footer-section ul,
+.footer-section form {
+  margin-bottom: 20px;
 }
 
 .footer-section ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
 }
 
 .footer-section ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-section ul li a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer-section ul li a:hover {
-    color: #f4a261;
+  color: white;
 }
 
 .footer-section form input,
 .footer-section form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
 }
 
 .footer-section form button {
-    padding: 10px 20px;
-    background-color: #f4a261;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.footer-section form button:hover {
-    background-color: #e76f51;
+  padding: 10px;
+  border: none;
+  background-color: #8a4f7d;
+  color: white;
+  cursor: pointer;
+  width: 100%;
 }
 
 .footer-bottom {
-    text-align: center;
-    padding: 20px 0;
-    border-top: 1px solid #555;
-    margin-top: 20px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #4a2563;
 }
 
-.footer-bottom p {
-    margin: 0;
-    font-size: 1em;
-}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
