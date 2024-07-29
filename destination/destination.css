@@ -19,7 +19,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #8a4f7d;
+    background-color: #CDCED7;
     color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -34,7 +34,7 @@ body {
   
   .navlinks a {
     padding: 0 15px;
-    color: white;
+    color: rgb(10, 10, 10);
     font-weight: bold;
   }
   
@@ -50,7 +50,7 @@ body {
   
   .holiday-cards h1 {
     text-align: center;
-    color: #8a4f7d;
+    color: #FCD272;
     margin-bottom: 20px;
   }
   
@@ -86,7 +86,7 @@ body {
   }
   
   .card-content h2 {
-    color: #8a4f7d;
+    color: #FCD272;
     margin-bottom: 10px;
   }
   
@@ -99,7 +99,7 @@ body {
   .card-content button {
     padding: 10px;
     border: none;
-    background-color: #8a4f7d;
+    background-color: #FCD272;
     color: white;
     cursor: pointer;
     width: 100%;
@@ -113,7 +113,7 @@ body {
   
   /* Footer Styles */
   .footer {
-    background-color: #5c2c6d;
+    background-color: #FCD272;
     color: white;
     padding: 40px 0;
   }
@@ -166,7 +166,7 @@ body {
   .footer-section form button {
     padding: 10px;
     border: none;
-    background-color: #8a4f7d;
+    background-color: #FCD272;
     color: white;
     cursor: pointer;
     width: 100%;
@@ -175,6 +175,6 @@ body {
   .footer-bottom {
     text-align: center;
     padding: 10px 0;
-    background-color: #4a2563;
+    background-color: #00104010;
   }
   

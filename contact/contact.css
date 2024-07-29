@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #ffecdb;
+  background-color: #F9F9FB;
   color: #333;
 }
 
@@ -21,8 +21,8 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #5c2c6d;
-  color: white;
+  background-color: #CDCED7;
+  color: rgb(7, 7, 7);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -41,7 +41,7 @@ a {
 
 .navigation .navlinks a {
   margin: 0 15px;
-  color: white;
+  color: rgb(10, 10, 10);
   text-decoration: none;
   font-size: 1em;
   transition: color 0.3s ease;
@@ -104,7 +104,7 @@ a {
 }
 
 .contact-info a {
-  color: #8a4f7d;
+  color: #FCD272;
   text-decoration: underline;
 }
 
@@ -114,7 +114,7 @@ a {
 
 /* Footer Styles */
 .footer {
-  background-color: #5c2c6d;
+  background-color: #FCD272;
   color: white;
   padding: 40px 0;
 }
@@ -167,7 +167,7 @@ a {
 .footer-section form button {
   padding: 10px;
   border: none;
-  background-color: #8a4f7d;
+  background-color: #FCD272;
   color: white;
   cursor: pointer;
   width: 100%;
@@ -176,5 +176,5 @@ a {
 .footer-bottom {
   text-align: center;
   padding: 10px 0;
-  background-color: #4a2563;
+  background-color: #00104010;
 }

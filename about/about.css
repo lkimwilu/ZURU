@@ -6,7 +6,7 @@
   }
   
   body {
-    background-color: #ffecdb;
+    background-color: #F9F9FB;
     color: #333;
   }
   
@@ -21,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #8a4f7d;
+    background-color: #CDCED7;
     color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -41,7 +41,7 @@
   
   .navlinks a {
     padding: 0 15px;
-    color: white;
+    color: rgb(10, 10, 10);
     text-decoration: none;
     font-size: 1em;
     transition: color 0.3s ease;
@@ -107,7 +107,7 @@
   .mission h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #5c2c6d;
+    color: #FCD272;
   }
   
   .mission .reject {
@@ -139,65 +139,43 @@
     max-width: 320px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.ceo-profile img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .ceo-profile:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ceo-profile img {
+    width: 100%;
+    height: 200px; /* Fixed height for images */
+    object-fit: cover;
+    border-radius: 12px 12px 0 0; /* Rounded corners on the top */
+  }
+  
+  .ceo-profile h2 {
+    margin: 15px 0;
+    font-size: 1.25em;
+    color: #333;
+  }
+  
+  .ceo-profile h2 span {
     display: block;
-    margin: 0 auto 10px;
-    border-radius: 50%;
-}
-
-.ceo-profile h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.ceo-profile h2 span {
-    font-size: 0.8em;
-    color: #888;
-}
-
-.ceo-profile p {
-    font-size: 0.9em;
-    line-height: 1.4;
-    color: #666;
-}
-
-.mission {
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-    width: 80%;
-    background-color: #f9f9f9;
-    margin-top: 4rem;
+    font-weight: normal;
+    font-size: 1em;
+    color: #FCD272; /* Accent color */
+  }
+  
+  .ceo-profile p {
+    font-size: 0.95em;
+    color: #555;
+    line-height: 1.6;
+  }
     
-       
-}
-
-
-.reject {
-    background-color: #F4A261;
-    width: 25%;
-    padding: 15px;
-    border-radius: 15px;
-    text-align: center;
-    
-
-}
-.reject:hover{
-    background-color:rgb(218, 97, 54);
-}
-
-.vision {
-
-}
-
-/* Footer Styles */
-.footer {
-    background-color: #333;
+  /* Footer Styles */
+  .footer {
+    background-color: #FCD272;
     color: white;
     padding: 40px 0;
   }
@@ -250,7 +228,7 @@
   .footer-section form button {
     padding: 10px;
     border: none;
-    background-color: #8a4f7d;
+    background-color: #FCD272;
     color: white;
     cursor: pointer;
     width: 100%;
@@ -259,6 +237,6 @@
   .footer-bottom {
     text-align: center;
     padding: 10px 0;
-    background-color: #4a2563;
+    background-color: #00104010;
   }
   

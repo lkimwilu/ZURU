@@ -1,15 +1,29 @@
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background-color: #333;
-  color: white;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #F9F9FB;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navlinks a {
+  padding: 0 15px;
 }
 
 .logo {
   font-size: 1.5em;
   font-weight: bold;
+  color: rgb(10, 10, 10);
 }
 
 .navigation {
@@ -17,7 +31,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #8a4f7d;
+  background-color: #CDCED7;
   color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: sticky;
@@ -229,7 +243,7 @@ button:hover {
   
 /* Footer Styles */
 .footer {
-  background-color: #5c2c6d;
+  background-color: #FCD272;
   color: white;
   padding: 40px 0;
 }
@@ -282,7 +296,7 @@ button:hover {
 .footer-section form button {
   padding: 10px;
   border: none;
-  background-color: #8a4f7d;
+  background-color: #FCD272;
   color: white;
   cursor: pointer;
   width: 100%;
@@ -291,7 +305,7 @@ button:hover {
 .footer-bottom {
   text-align: center;
   padding: 10px 0;
-  background-color: #4a2563;
+  background-color: #00104010;
 }
 
 
