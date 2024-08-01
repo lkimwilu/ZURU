@@ -31,7 +31,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #CDCED7;
+  background-color: #62636C;
   color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: sticky;
@@ -243,7 +243,7 @@ button:hover {
   
 /* Footer Styles */
 .footer {
-  background-color: #FCD272;
+  background-color: #62636C;
   color: white;
   padding: 40px 0;
 }
@@ -296,7 +296,7 @@ button:hover {
 .footer-section form button {
   padding: 10px;
   border: none;
-  background-color: #FCD272;
+  background-color: #007272;
   color: white;
   cursor: pointer;
   width: 100%;
