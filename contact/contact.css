@@ -16,42 +16,43 @@ a {
 }
 
 /* Navigation Bar */
-.navigation {
+ /* Navigation Bar */
+ .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #CDCED7;
-  color: rgb(7, 7, 7);
+  background-color: #d8daf3;
+  color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
-.navigation .logo {
-  font-size: 1.5em;
-  font-weight: bold;
+.logo img {
+  width: 50px;  /* Adjust size as needed */
+  height: 50px;  /* Maintain aspect ratio */
 }
 
-.navigation .navlinks {
+.navlinks {
   display: flex;
   align-items: center;
 }
 
-.navigation .navlinks a {
-  margin: 0 15px;
+.navlinks a {
+  padding: 0 15px;
   color: rgb(10, 10, 10);
   text-decoration: none;
   font-size: 1em;
   transition: color 0.3s ease;
 }
 
-.navigation .navlinks a:hover {
-  color: #f4a261;
+.navlinks a:hover {
+  color: #2c634e;
 }
 
-.navigation .navlinks button {
+.navlinks button {
   margin-left: 15px;
   padding: 10px 20px;
   background-color: #f4a261;
@@ -62,8 +63,8 @@ a {
   transition: background-color 0.3s ease;
 }
 
-.navigation .navlinks button:hover {
-  background-color: #e76f51;
+.navlinks button:hover {
+  background-color: #2c634e;
 }
 
 /* Contact Page */
@@ -104,17 +105,17 @@ a {
 }
 
 .contact-info a {
-  color: #FCD272;
+  color: #198159;
   text-decoration: underline;
 }
 
 .contact-info a:hover {
-  color: #e76f51;
+  color: #2c634e;
 }
 
 /* Footer Styles */
 .footer {
-  background-color: #FCD272;
+  background-color: #30313d;
   color: white;
   padding: 40px 0;
 }
@@ -167,7 +168,7 @@ a {
 .footer-section form button {
   padding: 10px;
   border: none;
-  background-color: #FCD272;
+  background-color: #198159;
   color: white;
   cursor: pointer;
   width: 100%;

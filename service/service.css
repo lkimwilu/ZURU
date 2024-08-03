@@ -14,34 +14,57 @@ a {
 }
   
 /* Navigation Styles */
-.navigation {
+ /* Navigation Bar */
+ .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #007272;
-    color: rgb(10, 10, 10);
+    background-color: #d8daf3;
+    color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
-}
+  }
   
-.navlinks {
+  .logo img {
+    width: 50px;  /* Adjust size as needed */
+    height: 50px;  /* Maintain aspect ratio */
+  }
+  
+  .navlinks {
     display: flex;
-    gap: 15px;
-}
+    align-items: center;
+  }
   
-.navlinks a {
+  .navlinks a {
     padding: 0 15px;
-    color: white;
-    font-weight: bold;
-}
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+  }
   
-.logo {
-    font-size: 1.5em;
-    font-weight: bold;
-}
+  .navlinks a:hover {
+    color: #2c634e;
+  }
+  
+  .navlinks button {
+    margin-left: 15px;
+    padding: 10px 20px;
+    background-color: #2c634e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navlinks button:hover {
+    background-color: #2c634e;
+  }
+  
   
 /* Hero Section */
 .hero {
@@ -72,7 +95,7 @@ a {
 }
   
 .service-section h2 {
-    color: #FCD272;
+    color: #198159;
     margin-bottom: 10px;
 }
   
@@ -93,7 +116,7 @@ a {
   
 /* Footer Styles */
 .footer {
-    background-color: #FCD272;
+    background-color: #30313d;
     color: white;
     padding: 40px 0;
 }
@@ -146,7 +169,7 @@ a {
 .footer-section form button {
     padding: 10px;
     border: none;
-    background-color: #FCD272;
+    background-color: #198159;
     color: white;
     cursor: pointer;
     width: 100%;

@@ -14,28 +14,57 @@
     text-decoration: none;
     color: inherit;
   }
-  
-  .navlinks a {
-    padding: 0 15px;
-  }
-  
-  .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  
-  .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    background-color: #62636C;
-    color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
+   /* Navigation Bar */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #d8daf3;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo img {
+  width: 50px;  /* Adjust size as needed */
+  height: 50px;  /* Maintain aspect ratio */
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+}
+
+.navlinks a {
+  padding: 0 15px;
+  color: rgb(10, 10, 10);
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.navlinks a:hover {
+  color: #2c634e;
+}
+
+.navlinks button {
+  margin-left: 15px;
+  padding: 10px 20px;
+  background-color: #f4a261;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navlinks button:hover {
+  background-color: #198159;
+}
+
   
   .hero {
     position: relative;
@@ -190,7 +219,7 @@
   }
   
   .footer {
-    background-color:#62636C;
+    background-color:#30313d;
     color: white;
     padding: 40px 0;
   }
