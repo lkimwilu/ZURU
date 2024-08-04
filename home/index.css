@@ -62,7 +62,7 @@
 }
 
 .navlinks button:hover {
-  background-color: #198159;
+  background-color: #008080;
 }
 
   
@@ -103,7 +103,7 @@
   
   .hero button {
     padding: 10px 20px;
-    background-color: #007272;
+    background-color: #008080;
     border: none;
     color: white;
     cursor: pointer;
@@ -129,7 +129,7 @@
     padding: 10px 20px;
     border: none;
     border-radius: 0 4px 4px 0;
-    background-color: #007272;
+    background-color: #008080;
     color: white;
     cursor: pointer;
   }
@@ -211,7 +211,7 @@
   
   .card-content button {
     padding: 10px;
-    background-color: #007272;
+    background-color: #008080;
     border: none;
     color: white;
     cursor: pointer;
@@ -272,7 +272,7 @@
   .footer-section form button {
     padding: 10px;
     border: none;
-    background-color: #007272;
+    background-color: #008080;
     color: white;
     cursor: pointer;
     width: 100%;

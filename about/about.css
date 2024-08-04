@@ -6,7 +6,7 @@
   }
   
   body {
-    background-color: #F9F9FB;
+    background-color: #acacbb;
     color: #333;
   }
   
@@ -229,7 +229,7 @@
   .footer-section form button {
     padding: 10px;
     border: none;
-    background-color: #007272;
+    background-color: #008080;
     color: white;
     cursor: pointer;
     width: 100%;
