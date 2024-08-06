@@ -217,7 +217,7 @@
     cursor: pointer;
     width: 100%;
   }
-  
+  /* footer styles */
   .footer {
     background-color:#30313d;
     color: white;
@@ -227,8 +227,9 @@
   .footer-content {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
+    align-items: center;
+     flex-wrap: wrap;
+    gap: 200px;
     max-width: 1000px;
     margin: auto;
   }
