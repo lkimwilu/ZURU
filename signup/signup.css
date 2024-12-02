@@ -21,7 +21,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-image:  linear-gradient(to right, #E4F7EF ,#AAC2B6, #457766,#1D3B31,#025710,#97CBB8,#E4F7EF);
+  background-color: #C0F5E8;
   color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: sticky;
@@ -276,8 +276,8 @@ button:hover {
   
 /* Footer Styles */
 .footer {
-  background-image: linear-gradient(to right, #506D60, #668C7A, #7DA18D, #94B6A0, #668C7A,  #506D60 );
-  color: white;
+  background-color: #C0F5E8;
+  color: #3b3939;
   padding: 40px 0;
 }
 
@@ -314,7 +314,7 @@ button:hover {
 }
 
 .footer-section ul li a {
-  color: white;
+  color: #3b3939;
 }
 
 .footer-section form input,
