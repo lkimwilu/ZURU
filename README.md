@@ -1,3 +1,0 @@
-# tourism
-# tourism
-# kwetu
